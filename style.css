@@ -2,6 +2,11 @@
 
 body {
   font-family: "Lato", sans-serif;
+  
+}
+
+header div {
+ 
 }
 
 h2 {
@@ -38,7 +43,8 @@ main img {
 
 .group {
   display: flex;
-  flex-direction: column;
+  color: white;
+  flex-direction: column-reverse;
 }
 
 .item {
@@ -53,8 +59,9 @@ main img {
 /* -------  Navigation ------- */
 
 header {
+  display: flex;
   background-color: #ff385c;
-  padding: 20px 20px 0 20px;
+  padding: 20px 0 20px 50px;
   text-align: center;
 }
 
@@ -65,13 +72,14 @@ header {
 }
 
 header nav ul li {
+  display: flex;
   list-style-type: none;
 }
 
 header nav ul li a {
-  color: #fff;
+  display: flex;
+  color: white;
   text-decoration: none;
-  padding: 0 20px 0 0;
 }
 
 header nav ul li a:hover {
